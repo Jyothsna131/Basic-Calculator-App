@@ -1,0 +1,87 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: #f0f0f0;
+}
+
+.calculator {
+  width: 300px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.title {
+  background: #7463c5; /* Same color as the operator buttons for consistency */
+  color: #fff;
+  font-size: 1.5em;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  border-bottom: 2px solid #ccc;
+}
+
+
+.display {
+  background: #f8f8f8;
+  color: #000000;
+  font-size: 2em;
+  text-align: right;
+  padding: 10px;
+  min-height: 50px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+  padding: 10px;
+}
+
+.btn {
+  padding: 15px;
+  font-size: 1.2em;
+  border: none;
+  background: #000000;
+  color:white;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #ccc;
+}
+
+.operator {
+  background: #f9a825;
+  color: #fff;
+}
+
+.operator:hover {
+  background: #f57c00;
+}
+
+
+.special {
+  background: #f9a825;
+  color: #fff;
+}
+
+.special:hover {
+  background: #f57c00;
+}
+
+.dot{
+  background: #f9a825;
+  color:#fff;
+
+.dot:hover{
+ background:#f57c00;
+}
